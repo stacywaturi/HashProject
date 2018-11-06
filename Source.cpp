@@ -66,8 +66,7 @@ int calc_sha256(const char* path, unsigned char hash[SHA256_DIGEST_LENGTH])
 	
 	fclose(file);
 	free(buffer);
-	char outputBuffer[65];
-	sha256_hash_string(hash, outputBuffer);
+	
 	return 0;
 }
 

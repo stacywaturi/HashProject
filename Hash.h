@@ -20,7 +20,7 @@ static const char base64_url_alphabet1[] = {
 class Hash
 {
 public:
-
+	//
 
 	std::string tohex(unsigned char s);
 

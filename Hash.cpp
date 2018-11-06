@@ -30,7 +30,7 @@ std::string Hash::SHA256hash(std::string line) {
 	//output = base64_encoder1(ss.str());
 	return output;
 
-
+	//
 }
 
 
